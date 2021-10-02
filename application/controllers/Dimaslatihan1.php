@@ -3,7 +3,7 @@ class Latihan1 Extends CI_Controller
 {
     public function index()
     {
-        echo "<b><h2>Selamat Datang . . Selamat belajar Web Programming</h2><b>";
+        echo "<b><h2>Selamat Datang. . . Selamat belajar Web Programming</h2><b>";
     }
 
     public function penjumlahan($n1, $n2)
@@ -18,5 +18,5 @@ class Latihan1 Extends CI_Controller
         $data['hasil'] = $this->Model_latihan1->jumlah($n1, $n2);
 
         $this->load->view('view=latihan1', $data);
-    }
+    } 
 }
